@@ -2,7 +2,7 @@ cabal-version:      3.8
 name:               Haskell-Template
 version:            1.0.0.0
 synopsis:           Repositório modelo para exercícios de Haskell.
-description:        Repositório modelo para o GitHub Classroom.
+description:        Repositório modelo para o Laboratório 03 de Haskell no GitHub Classroom.
 homepage:           https://github.com/lwives/Haskell-Template
 license:            NONE
 author:             Leandro Wives
@@ -53,7 +53,8 @@ executable Exercicio-05-Test
     default-language:   Haskell2010
     ghc-options:        -Wall
     build-depends:      base >= 4.14 && < 5,
-                        HUnit
+                        HUnit,
+                        HUnit-Approx
 
 executable Exercicio-06-Test
     main-is:            TestExercicio06.hs
@@ -62,16 +63,18 @@ executable Exercicio-06-Test
     default-language:   Haskell2010
     ghc-options:        -Wall
     build-depends:      base >= 4.14 && < 5,
-                        HUnit
+                        HUnit,
+                        HUnit-Approx
 
 executable Exercicio-07-Test
-    main-is:            TestExercicio04.hs
+    main-is:            TestExercicio07.hs
     hs-source-dirs:     Exercicio-07
     other-modules:      Exercicio07
     default-language:   Haskell2010
     ghc-options:        -Wall
     build-depends:      base >= 4.14 && < 5,
-                        HUnit
+                        HUnit,
+                        HUnit-Approx
 
 executable Exercicio-08-Test
     main-is:            TestExercicio08.hs
@@ -80,12 +83,5 @@ executable Exercicio-08-Test
     default-language:   Haskell2010
     ghc-options:        -Wall
     build-depends:      base >= 4.14 && < 5,
-                        HUnit  
-
-
-
-                        
-
-
-                        
-                        
+                        HUnit,
+                        HUnit-Approx           
